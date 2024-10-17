@@ -1,0 +1,936 @@
+[09:03:33.143] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[09:29:41.178] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qframelesswindow\windows\__init__.py", line 93, in nativeEvent
+    def nativeEvent(self, eventType, message):
+    
+KeyboardInterrupt
+[09:29:48.164] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\style_sheet.py", line 225, in eventFilter
+    def eventFilter(self, obj: QWidget, e: QEvent):
+    
+KeyboardInterrupt
+[09:30:51.700] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[09:31:08.018] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：3 ---------------------
+[09:31:08.018] [check_df.py 111] [INFO]: ---------------------未通过长度校验数据行数：3 ---------------------
+[09:31:08.018] [check_df.py 36] [INFO]: ---------------------数据校验开始---------------------
+[09:31:08.020] [check_df.py 43] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[09:31:08.021] [check_df.py 89] [INFO]: ---------------------未通过枚举值校验数据行数：0 ---------------------
+[11:33:21.560] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:34:24.753] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:36:00.119] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:51:09.105] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[11:51:09.105] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 25, in process_params
+    if check_type == '长度校验':
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 53, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "D:\Bot\dataScan\dataScan\src\checks\base\valid.py", line 5, in is_valid_id
+    if len(id_number) != 18:
+       ^^^^^^^^^^^^^^
+TypeError: object of type 'float' has no len()
+[11:51:16.799] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[11:51:16.799] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 25, in process_params
+    if check_type == '长度校验':
+             ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 53, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\series.py", line 4924, in apply
+    ).apply()
+      ^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\apply.py", line 1427, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\apply.py", line 1507, in apply_standard
+    mapped = obj._map_values(
+             ^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\base.py", line 921, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "lib.pyx", line 2972, in pandas._libs.lib.map_infer
+  File "D:\Bot\dataScan\dataScan\src\checks\base\valid.py", line 5, in is_valid_id
+    if len(id_number) != 18:
+       ^^^^^^^^^^^^^^
+TypeError: object of type 'float' has no len()
+[13:47:33.039] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:47:52.737] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 63, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 35, in check_column_type
+    messageBox.createErrorBar(f"Column '{column}' 的类型必须为 {expected_type}, 但是现在的类型是 {actual_type}.")
+TypeError: MessageBoxUtils.createErrorBar() missing 1 required positional argument: 'content'
+[13:51:23.176] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:51:47.544] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[13:51:47.545] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[13:51:47.546] [check_df.py 125] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[13:51:47.560] [check_df.py 103] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[13:51:51.045] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[13:51:51.046] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[13:51:51.047] [check_df.py 125] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[13:51:51.061] [check_df.py 103] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[13:51:56.750] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[13:51:56.750] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[13:51:56.751] [check_df.py 125] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[13:51:56.764] [check_df.py 103] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[13:55:03.632] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:55:21.472] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 63, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 35, in check_column_type
+    messageBox.createDFErrorBar(f"Column '{column}' 的类型必须为 {expected_type}, 但是现在的类型是 {actual_type}.")
+TypeError: MessageBoxUtils.createDFErrorBar() takes 1 positional argument but 2 were given
+[13:56:31.172] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:56:43.921] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 64, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 35, in check_column_type
+    messageBox.createDFErrorBar(
+TypeError: MessageBoxUtils.createDFErrorBar() got multiple values for argument 'content'
+[13:57:02.160] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\style_sheet.py", line 225, in eventFilter
+    def eventFilter(self, obj: QWidget, e: QEvent):
+    
+KeyboardInterrupt
+[13:58:09.306] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\animation.py", line 93, in eventFilter
+    def eventFilter(self, obj, e):
+    
+KeyboardInterrupt
+[13:58:39.220] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\style_sheet.py", line 225, in eventFilter
+    def eventFilter(self, obj: QWidget, e: QEvent):
+    
+KeyboardInterrupt
+[13:59:03.107] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\components\navigation\navigation_bar.py", line 116, in paintEvent
+    selectedIcon.render(painter, rect, fill=themeColor().name())
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\icon.py", line 272, in render
+    icon = writeSvg(icon, indexes, **attributes).encode()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\icon.py", line 142, in writeSvg
+    dom.setContent(f.readAll())
+KeyboardInterrupt
+[13:59:31.054] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:59:50.978] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 63, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 35, in check_column_type
+    messageBox.CreateErrorBar(f"Column '{column}' 的类型必须为 {expected_type}, 但是现在的类型是 {actual_type}.")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageBoxUtils' object has no attribute 'CreateErrorBar'
+[14:00:17.538] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:00:20.852] [check_df.py 52] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:00:20.853] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 63, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 35, in check_column_type
+    messageBox.CreateErrorBar(f"Column '{column}' 的类型必须为 {expected_type}, 但是现在的类型是 {actual_type}.")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MessageBoxUtils' object has no attribute 'CreateErrorBar'
+[14:00:40.107] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:00:42.616] [check_df.py 52] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:00:42.616] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 63, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 35, in check_column_type
+    messageBox.createErrorBar(f"Column '{column}' 的类型必须为 {expected_type}, 但是现在的类型是 {actual_type}.")
+TypeError: MessageBoxUtils.createErrorBar() missing 1 required positional argument: 'content'
+[14:00:59.634] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:01:02.393] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:01:02.408] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:01:23.139] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:01:26.049] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:01:26.062] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:06:15.244] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:06:20.081] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:06:20.081] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 64, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 37, in check_column_type
+    raise ValueError(f"Column '{column}' must be of type {expected_type}, but got {actual_type}.")
+ValueError: Column 'materialid' must be of type <class 'object'>, but got object.
+[14:06:31.083] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:06:31.084] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df = verification_id(df, column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 64, in verification_id
+    check_column_type(df, column_name, object)  # 检查是否为字符串类型
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 37, in check_column_type
+    raise ValueError(f"Column '{column}' must be of type {expected_type}, but got {actual_type}.")
+ValueError: Column 'materialid' must be of type <class 'object'>, but got object.
+[14:14:31.436] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:14:38.054] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+                   ^^^^^^
+UnboundLocalError: cannot access local variable 'values' where it is not associated with a value
+[14:14:41.459] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 353, in _on_start_clicked
+    process_params(values, self.data)
+                   ^^^^^^
+UnboundLocalError: cannot access local variable 'values' where it is not associated with a value
+[14:15:15.711] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:15:22.001] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:15:26.330] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:15:26.330] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:15:31.097] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:16:41.450] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:16:41.450] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:20:33.968] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:20:33.969] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:20:58.247] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:21:03.573] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:21:03.573] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:21:14.117] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:21:16.555] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:21:16.556] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:21:18.647] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:21:18.648] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:21:19.817] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:21:19.817] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:22:15.084] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:22:17.936] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:22:17.937] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:22:23.740] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:22:23.740] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:22:23.741] [check_df.py 125] [INFO]: ---------------------未通过长度校验数据行数：0 ---------------------
+[14:25:25.075] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:25:27.583] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:25:27.584] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:26:28.310] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:26:30.912] [check_df.py 53] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:26:30.912] [check_df.py 70] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:28:06.053] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:28:08.008] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:28:08.008] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:29:05.206] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:29:31.447] [handlers_interface.py 137] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[14:29:32.054] [handlers_interface.py 170] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[14:29:36.580] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:29:40.761] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:29:40.761] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:32:21.105] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:32:24.921] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:32:39.295] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:32:39.295] [process_parmas.py 27] [ERROR]: invalid literal for int() with base 10: ''
+[14:36:31.631] [handlers_interface.py 137] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[14:36:36.824] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:36:45.744] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:36:45.744] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:39:00.252] [handlers_interface.py 137] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[14:39:05.291] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:39:07.946] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:39:07.947] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:40:21.412] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:40:21.412] [check_df.py 111] [INFO]: ---------------------未通过长度校验数据行数：0 ---------------------
+[14:46:12.661] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:47:16.040] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:47:17.317] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 350, in _on_start_clicked
+    if self.standard_column_ComboBoxes.count() > 0 or self.standard_function_ComboBoxes.count() > 0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list.count() takes exactly one argument (0 given)
+[14:51:05.747] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:51:09.326] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:51:11.334] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:51:11.335] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:53:55.656] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:54:01.993] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:54:01.993] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:54:56.045] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:54:57.732] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:55:10.635] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:55:15.521] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:55:15.521] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:55:38.472] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:55:38.473] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:55:38.474] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:55:38.474] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:56:05.647] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:56:11.350] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:56:19.766] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:56:19.767] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:56:22.475] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:56:22.476] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:56:22.477] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:56:49.247] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:56:51.817] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:56:51.817] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:56:56.326] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:57:18.862] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:57:22.402] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:57:23.226] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:57:27.367] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[14:57:27.368] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[14:58:12.279] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:58:14.078] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:58:18.532] [process_parmas.py 27] [ERROR]: No axis named 1 for object type Series
+[14:59:55.611] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:59:57.803] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:00:00.616] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：0 ---------------------
+[15:00:00.617] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：0 ---------------------
+[15:01:11.173] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:01:11.173] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:04:03.547] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:04:03.548] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:07:19.521] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:07:19.521] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:08:15.136] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:08:15.136] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:08:52.289] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:08:52.289] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:09:10.361] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:09:10.361] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:10:08.533] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:10:13.820] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:10:17.614] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:10:23.629] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:10:36.462] [process_parmas.py 27] [ERROR]: object of type 'int' has no len()
+[15:10:43.002] [check_df.py 59] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:10:49.527] [process_parmas.py 27] [ERROR]: object of type 'float' has no len()
+[15:10:56.869] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：59 ---------------------
+[15:10:56.870] [process_parmas.py 27] [ERROR]: object of type 'float' has no len()
+[15:11:04.865] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:11:47.362] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:11:49.783] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:11:57.261] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:12:39.450] [check_df.py 111] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[15:12:42.501] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:13:52.849] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:13:55.221] [process_parmas.py 27] [ERROR]: 'NoneType' object has no attribute 'copy'
+[15:17:12.394] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:17:16.202] [check_df.py 46] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[15:17:16.202] [process_parmas.py 27] [ERROR]: 'materialcode'
+[15:17:40.528] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:17:44.252] [check_df.py 46] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[15:17:44.252] [process_parmas.py 27] [ERROR]: 'materialcode'
+[15:18:23.860] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:18:29.170] [check_df.py 46] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[15:18:29.171] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 13, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 58, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialcode'
+[15:19:27.838] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:19:30.159] [check_df.py 46] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:19:30.159] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 13, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 58, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialid'
+[15:19:31.937] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:19:35.283] [check_df.py 46] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:19:35.284] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 13, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 58, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialid'
+[15:20:28.059] [handlers_interface.py 137] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[15:20:40.471] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:20:40.471] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:22:05.742] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:22:05.742] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:22:05.743] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:22:21.588] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:22:24.716] [check_df.py 46] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[15:22:24.717] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 13, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 57, in verification_id
+    print(df[column_name])
+          ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialcode'
+[15:23:00.451] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:23:03.445] [check_df.py 46] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[15:23:03.446] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 13, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 58, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialcode'
+[15:26:43.308] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:26:50.797] [check_df.py 46] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:26:50.797] [process_parmas.py 17] [INFO]: 列 'materialid' 通过空值校验，无空值.
+[15:26:50.798] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 22, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 58, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialid'
+[15:28:07.720] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:28:07.720] [process_parmas.py 26] [INFO]: 列 'materialid' 未通过身份证校验.
+[15:29:29.030] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:29:32.742] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:29:32.743] [process_parmas.py 16] [INFO]: 列 'materialid' 通过空值校验，无空值.
+[15:29:32.744] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 21, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 57, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialid'
+[15:32:13.896] [handlers_interface.py 137] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[15:32:17.313] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:32:19.731] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 15, in process_params
+    for column, check_type, not_null, param in all_checks:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+[15:34:52.660] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 15, in process_params
+    if df.empty:
+ValueError: not enough values to unpack (expected 4, got 3)
+[15:35:47.361] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:35:49.541] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:35:49.542] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 14, in process_params
+    df = verification_id(df.copy(), column)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\check_df.py", line 57, in verification_id
+    df['未通过校验原因'] = df[column_name].apply(valid.is_valid_id)
+                           ~~^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'materialid'
+[15:35:52.342] [check_df.py 62] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:37:03.268] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:37:05.346] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:37:05.367] [check_df.py 62] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:53:40.661] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:53:43.505] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:53:43.507] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:53:52.938] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:53:52.939] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:53:52.939] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:53:52.940] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df4 = verification_len(df.copy(), column, int(param))
+                                              ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+[15:54:03.944] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:54:03.945] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:54:03.945] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:54:03.946] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 20, in process_params
+    df4 = verification_len(df.copy(), column, int(param))
+                                              ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+[15:55:08.966] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:55:19.760] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:55:19.760] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:55:19.761] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 22, in process_params
+    df4 = verification_len(df.copy(), column, int(param))
+                                              ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 28, in process_params
+    log.error()
+TypeError: Logger.error() missing 1 required positional argument: 'msg'
+[15:55:38.609] [handlers_interface.py 137] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[15:55:42.643] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:55:46.696] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:55:46.696] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:55:46.697] [process_parmas.py 28] [ERROR]: invalid literal for int() with base 10: ''
+[15:55:51.796] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[15:55:51.796] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[15:55:51.796] [process_parmas.py 28] [ERROR]: invalid literal for int() with base 10: ''
+[16:06:27.377] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:06:32.003] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:06:32.003] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 22, in process_params
+    df4 = verification_len(df.copy(), column, int(param))
+                                              ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 28, in process_params
+    MessageBoxUtils.createErrorBar(content="参数解析失败", )
+TypeError: MessageBoxUtils.createErrorBar() missing 1 required positional argument: 'parent'
+[16:06:34.828] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:06:34.829] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 22, in process_params
+    df4 = verification_len(df.copy(), column, int(param))
+                                              ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 356, in _on_start_clicked
+    process_params(values, data_copy)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 28, in process_params
+    MessageBoxUtils.createErrorBar(content="参数解析失败", )
+TypeError: MessageBoxUtils.createErrorBar() missing 1 required positional argument: 'parent'
+[16:06:38.852] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:06:38.853] [check_df.py 113] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[16:14:09.988] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:14:12.584] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:14:16.550] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:15:50.092] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:15:52.217] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:15:52.218] [process_parmas.py 28] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[16:16:00.784] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:16:00.786] [process_parmas.py 28] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[16:17:57.314] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:17:57.316] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:17:57.316] [check_df.py 45] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[16:17:57.317] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:00.179] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:22:00.180] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:00.180] [check_df.py 45] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[16:22:00.181] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:00.182] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[16:22:00.182] [process_parmas.py 28] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[16:22:09.682] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:22:09.683] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:09.683] [check_df.py 45] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[16:22:09.684] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:09.685] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[16:22:09.685] [process_parmas.py 28] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[16:22:24.224] [check_df.py 45] [INFO]: ---------------------列 'materialid' 通过空值校验，无空值 ---------------------
+[16:22:24.225] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:24.225] [check_df.py 45] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[16:22:24.226] [check_df.py 61] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:22:24.226] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[16:22:24.227] [check_df.py 113] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[16:22:24.228] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[16:22:24.228] [check_df.py 113] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[16:32:28.981] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:32:37.876] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:32:37.876] [process_parmas.py 29] [ERROR]: 参数解析出现问题:name 'enum_dict' is not defined
+[16:34:08.318] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:34:33.923] [process_parmas.py 9] [INFO]: 输入的全部校验内容为{'standard': [('materialid', '身份证校验', False)], 'advanced': [('brand', '枚举值校验', True, 'a,b,c')]}
+[16:34:33.925] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[16:34:33.925] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[16:34:33.925] [process_parmas.py 30] [ERROR]: 参数解析出现问题:name 'enum_dict' is not defined
+[16:48:03.484] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:48:03.484] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:48:03.488] [check_df.py 100] [INFO]: ---------------------未通过枚举值校验数据行数：0 ---------------------
+[16:48:26.435] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:48:26.435] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:48:26.437] [check_df.py 100] [INFO]: ---------------------未通过枚举值校验数据行数：0 ---------------------
+[16:49:05.573] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:49:05.573] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:49:05.576] [check_df.py 100] [INFO]: ---------------------未通过枚举值校验数据行数：0 ---------------------
+[16:52:42.086] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:52:42.086] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:52:42.089] [check_df.py 105] [INFO]: ---------------------列 'brand' 通过枚举值校验 ---------------------
+[16:53:31.735] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:53:31.735] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:53:31.761] [check_df.py 105] [INFO]: ---------------------列 'brand' 通过枚举值校验 ---------------------
+[16:53:47.743] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:53:47.743] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:53:47.747] [check_df.py 105] [INFO]: ---------------------列 'brand' 通过枚举值校验 ---------------------
+[16:55:03.619] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:55:03.619] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:55:03.624] [check_df.py 105] [INFO]: ---------------------列 'brand' 通过枚举值校验 ---------------------
+[16:55:18.364] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:55:18.364] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:55:18.368] [check_df.py 105] [INFO]: ---------------------列 'brand' 通过枚举值校验 ---------------------
+[16:55:54.795] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:55:54.795] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:55:54.798] [check_df.py 105] [INFO]: ---------------------列 'brand' 通过枚举值校验 ---------------------
+[16:56:39.592] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:56:39.592] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:56:39.595] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[16:56:58.459] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[16:56:58.459] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[16:56:58.462] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[17:00:15.391] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[17:00:15.392] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[17:02:09.708] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[17:02:09.708] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[17:02:35.916] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[17:02:35.916] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[17:02:35.919] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[17:04:09.944] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[17:04:09.945] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[17:04:09.948] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[17:06:13.969] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[17:06:13.969] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[17:06:14.128] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------

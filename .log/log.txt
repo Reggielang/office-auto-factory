@@ -1,0 +1,293 @@
+[08:29:42.436] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[13:54:54.530] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 104, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 34, in __init__
+    self.homeInterface = HomeInterface()
+                         ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\home_interface.py", line 191, in __init__
+    self.appCard = AppInfoCard(self)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\home_interface.py", line 55, in __init__
+    self.iconLabel.setBorderRadius(20, 20, 20, 20)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ImageLabel' object has no attribute 'setBorderRadius'
+[13:55:07.611] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 104, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 34, in __init__
+    self.homeInterface = HomeInterface()
+                         ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\home_interface.py", line 191, in __init__
+    self.appCard = AppInfoCard(self)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\home_interface.py", line 55, in __init__
+    self.iconLabel.setBorderRadius(20, 20, 20, 20)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ImageLabel' object has no attribute 'setBorderRadius'
+[14:10:57.147] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 104, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 38, in __init__
+    self.initWindow()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 61, in initWindow
+    self.setWindowIcon(QIcon(r'D:\Bot\dataScan\dataScan\assets\images\日常办公-01.png').pixmap(32, 32))
+TypeError: setWindowIcon(self, icon: QIcon): argument 1 has unexpected type 'QPixmap'
+[14:11:37.737] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 104, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 38, in __init__
+    self.initWindow()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 61, in initWindow
+    self.setWindowIcon(QIcon(r'D:\Bot\dataScan\dataScan\assets\images\日常办公-01.png').pixmap(32, 32))
+TypeError: setWindowIcon(self, icon: QIcon): argument 1 has unexpected type 'QPixmap'
+[14:33:20.309] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:43:38.076] [excel_master.py 99] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 112, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 55, in initNavigation
+    self.addSubInterface(self.libraryInterface, FIF.HEART, '点赞', FIF.LIBRARY_FILL,
+                         ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Window' object has no attribute 'libraryInterface'
+[14:43:50.557] [excel_master.py 99] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 112, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 55, in initNavigation
+    self.addSubInterface(self.libraryInterface, FIF.HEART, '点赞',
+                         ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Window' object has no attribute 'libraryInterface'
+[14:44:03.639] [excel_master.py 99] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 112, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 61, in initNavigation
+    onClick=self.showMessageBox,
+            ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Window' object has no attribute 'showMessageBox'
+[14:45:36.996] [excel_master.py 98] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 111, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 55, in initNavigation
+    self.addSubInterface("settingInterface", FIF.HEART, '点赞', position=NavigationItemPosition.BOTTOM)
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\window\fluent_window.py", line 311, in addSubInterface
+    if not interface.objectName():
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'objectName'
+[14:46:43.507] [excel_master.py 87] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 100, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 46, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 56, in initNavigation
+    self.addSubInterface(self.homeInterface2, FIF.HEART, '点赞', position=NavigationItemPosition.BOTTOM)
+                         ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Window' object has no attribute 'homeInterface2'
+[15:11:53.184] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = HeartsCard()
+                              ^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 16, in __init__
+    content.addGroup(star_opt)
+TypeError: GroupHeaderCardWidget.addGroup() missing 3 required positional arguments: 'title', 'content', and 'widget'
+[15:12:16.003] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = HeartsCard()
+                              ^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 16, in __init__
+    content.addGroup(star_opt)
+TypeError: GroupHeaderCardWidget.addGroup() missing 3 required positional arguments: 'title', 'content', and 'widget'
+[15:23:29.526] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = HeartCard()
+                              ^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 60, in __init__
+    self.addCard(f":/qfluentwidgets/images/logo.png", "PyQt-Fluent-Widgets", 'Shokokawaii Inc.')
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 69, in addCard
+    card = AppCard(icon, title, content, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 44, in __init__
+    self.moreButton.clicked.connect(self.onMoreButtonClicked)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AppCard' object has no attribute 'onMoreButtonClicked'
+[15:24:13.536] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = HeartCard()
+                              ^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 72, in __init__
+    self.addCard(f":/qfluentwidgets/images/logo.png", "PyQt-Fluent-Widgets", 'Shokokawaii Inc.')
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 90, in addCard
+    content.addGroup(img_label)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'addGroup'
+[15:24:24.363] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 39, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 50, in initNavigation
+    self.addSubInterface(self.handlersInterface2, FIF.HEART, '点赞', position=NavigationItemPosition.BOTTOM)
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\window\fluent_window.py", line 312, in addSubInterface
+    raise ValueError("The object name of `interface` can't be empty string.")
+ValueError: The object name of `interface` can't be empty string.
+[15:25:31.000] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = HeartCard()
+                              ^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 19, in __init__
+    self.addCard(f":/qfluentwidgets/images/logo.png", "PyQt-Fluent-Widgets", 'Shokokawaii Inc.')
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\heart_interface.py", line 28, in addCard
+    card = AppCard(icon, title, content, self)
+           ^^^^^^^
+NameError: name 'AppCard' is not defined
+[15:27:53.586] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 39, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 50, in initNavigation
+    self.addSubInterface(self.handlersInterface2, FIF.HEART, '点赞', position=NavigationItemPosition.BOTTOM)
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\window\fluent_window.py", line 312, in addSubInterface
+    raise ValueError("The object name of `interface` can't be empty string.")
+ValueError: The object name of `interface` can't be empty string.
+[15:30:12.597] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 24, in __init__
+    self.addGroup(self.chooseButton)
+TypeError: GroupHeaderCardWidget.addGroup() missing 3 required positional arguments: 'title', 'content', and 'widget'
+[15:30:44.261] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 24, in __init__
+    self.addWidget(self.chooseButton)
+    ^^^^^^^^^^^^^^
+AttributeError: 'LikeInterface' object has no attribute 'addWidget'
+[15:39:47.366] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 13, in __init__
+    elf.vBoxLayout.setSpacing(5)  # 减少间距，可以根据实际需要调整这个值
+    ^^^
+NameError: name 'elf' is not defined
+[15:42:53.074] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 27, in __init__
+    self.addGroup(self.content1)
+TypeError: GroupHeaderCardWidget.addGroup() missing 3 required positional arguments: 'title', 'content', and 'widget'
+[15:44:02.526] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 11, in __init__
+    self.setBorderRadius(8)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LikeInterface' object has no attribute 'setBorderRadius'
+[15:56:14.537] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 11, in __init__
+    self.hBoxLayout = QHBoxLayout(self)(self)
+                      ^^^^^^^^^^^
+NameError: name 'QHBoxLayout' is not defined
+[16:05:53.829] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 14, in __init__
+    content_widget.setStyleSheet("QWidget { background-color: transparent; }")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QVBoxLayout' object has no attribute 'setStyleSheet'
+[16:11:13.760] [excel_master.py 74] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 87, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 50, in __init__
+    self.viewLayout.addWidget(self.vBoxLayout)
+TypeError: addWidget(self, a0: QWidget, stretch: int = 0, alignment: Qt.AlignmentFlag = Qt.Alignment()): argument 1 has unexpected type 'QVBoxLayout'

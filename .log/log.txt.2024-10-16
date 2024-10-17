@@ -1,0 +1,145 @@
+[09:20:42.088] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[09:21:02.527] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '身份证校验'), ('materialname', '手机校验'), ('price', '数值校验')], 'advanced': []}
+[09:21:02.613] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[09:22:42.945] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': []}
+[09:22:43.028] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[09:34:32.576] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[09:34:53.477] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('specification', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': []}
+[09:34:53.560] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[09:40:04.986] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[09:40:07.165] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[09:40:07.167] [process_parmas.py 70] [ERROR]: 参数解析出现问题:'空值校验'
+[09:42:27.506] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[09:42:35.556] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[09:42:35.650] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[10:00:36.683] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:01:08.736] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('specification', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': []}
+[10:01:08.824] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[10:57:36.218] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:57:47.695] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '长度校验', '23'), ('materialname', '枚举值校验', 'a,b,c')]}
+[10:57:47.798] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[10:57:47.799] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 363, in _on_start_clicked
+    self.messageBox.createSuccessBar(self, "数据校验已完成 校验文件已保存至工作目录")
+TypeError: MessageBoxUtils.createSuccessBar() takes 2 positional arguments but 3 were given
+[10:58:24.983] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 348, in _on_start_clicked
+    self.messageBox.createErrorBar(self, "请先添加需要进行校验的文件", "")
+TypeError: MessageBoxUtils.createErrorBar() takes from 2 to 3 positional arguments but 4 were given
+[10:58:48.195] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:58:56.424] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '长度校验', '23'), ('materialname', '枚举值校验', 'a,b,c')]}
+[10:58:56.542] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[10:59:05.230] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '长度校验', '23'), ('materialname', '枚举值校验', 'a,b,c')]}
+[10:59:05.313] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[11:36:24.451] [excel_master.py 94] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 107, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in initNavigation
+    self.navigationInterface.addSubInterfaceClickedSignal.connect(self.onSubInterfaceClicked)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NavigationBar' object has no attribute 'addSubInterfaceClickedSignal'
+[11:48:27.942] [excel_master.py 94] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 107, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in initNavigation
+    self.navigationInterface.addWidget(self.onSubInterfaceClicked)
+TypeError: NavigationBar.addWidget() missing 1 required positional argument: 'widget'
+[11:54:53.934] [excel_master.py 94] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 107, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 37, in __init__
+    self.initNavigation()
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 45, in initNavigation
+    self.navigationInterface.currentChanged.connect(self.onCurrentChanged)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NavigationBar' object has no attribute 'currentChanged'
+[14:41:38.255] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:44:31.575] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': [('materialcode', '长度校验', '15'), ('number', '枚举值校验', 'a,b,c')]}
+[14:44:31.670] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[14:45:13.904] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': [('materialclassnametwo', '长度校验', '2'), ('number', '枚举值校验', 'a,b,c')]}
+[14:45:13.992] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[14:54:17.050] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': [('materialclassnametwo', '长度校验', '2'), ('number', '枚举值校验', 'a,b,c')]}
+[14:54:17.163] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:17:12.915] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:17:16.758] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[15:17:16.860] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:43:28.842] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:44:20.110] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('specification', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': [('materialclassnametwo', '长度校验', '2'), ('materialclassnametwo', '枚举值校验', '钢筋,')]}
+[15:44:20.199] [process_parmas.py 68] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_15-44-20-新版物料-校验.xlsx
+[15:44:30.721] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('specification', '身份证校验'), ('materialname', '手机校验'), ('materialclasscode', '数值校验')], 'advanced': [('materialclassnametwo', '长度校验', '2'), ('materialclassnametwo', '枚举值校验', '钢筋,')]}
+[15:44:30.804] [process_parmas.py 68] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_15-44-30-新版物料-校验.xlsx
+[15:47:11.083] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:47:31.124] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialclassnametwo', '枚举值校验', '钢筋')]}
+[15:47:31.218] [process_parmas.py 68] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_15-47-31-新版物料-校验.xlsx
+[15:50:01.266] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:50:11.692] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialclassnametwo', '枚举值校验', '钢筋')]}
+[15:50:11.788] [process_parmas.py 68] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_15-50-11-新版物料-校验.xlsx
+[15:50:29.430] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialclassnametwo', '枚举值校验', 'a')]}
+[15:50:29.505] [process_parmas.py 68] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_15-50-29-新版物料-校验.xlsx
+[15:50:48.377] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialclassnametwo', '长度校验', 'a')]}
+[15:50:48.377] [process_parmas.py 76] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: 'a'
+[15:53:41.753] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:58:15.813] [process_parmas.py 19] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '长度校验', '2')]}
+[15:58:15.910] [process_parmas.py 68] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_15-58-15-新版物料-校验.xlsx
+[16:06:29.527] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:06:32.506] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:06:32.603] [process_parmas.py 69] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_16-06-32-新版物料-校验.xlsx
+[16:06:56.482] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:07:39.547] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Python_env\Lib\site-packages\qframelesswindow\windows\__init__.py", line 93, in nativeEvent
+    def nativeEvent(self, eventType, message):
+    
+KeyboardInterrupt
+[16:07:45.571] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:07:48.699] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:07:48.791] [process_parmas.py 69] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_16-07-48-新版物料-校验.xlsx
+[16:07:50.244] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:07:50.316] [process_parmas.py 69] [INFO]: 所有校验完成，返回最终的 DataFrame, 文件已正常保存.文件名为C:\Users\KODI\Desktop\24-10-16_16-07-50-新版物料-校验.xlsx
+[17:06:21.989] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[17:06:23.658] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 381, in _on_start_clicked
+    process_params(values, data_copy, self.log, file_path_global)
+TypeError: process_params() missing 1 required positional argument: 'file_path'
+[17:07:19.245] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[17:07:22.009] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[17:07:22.103] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 63, in process_params
+    self.messageBox.createSuccessBar(self, "数据校验已完成 校验文件已保存至工作目录")
+    ^^^^
+NameError: name 'self' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 381, in _on_start_clicked
+    process_params(values, data_copy, self.log, file_path_global)
+  File "D:\Bot\dataScan\dataScan\src\checks\handlers\process_parmas.py", line 70, in process_params
+    self.messageBox.createErrorBar(self, "处理过程中出现错误", f"详细错误信息: {str(e)}")
+    ^^^^
+NameError: name 'self' is not defined
+[17:08:01.165] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[17:08:02.727] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[17:08:04.924] [excel_master.py 91] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 411, in _on_stop_clicked
+    log_message("已停止校验", self.textEdit)
+                              ^^^^^^^^^^^^^
+AttributeError: 'TableCard' object has no attribute 'textEdit'
+[17:09:24.374] [handlers_interface.py 53] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[17:09:25.939] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[17:09:37.918] [process_parmas.py 20] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}

@@ -1,0 +1,444 @@
+[09:16:07.532] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:16:07.535] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:16:45.056] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:16:45.057] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:16:45.059] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:47:37.253] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:47:37.254] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:47:37.255] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:48:22.125] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:48:22.126] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:48:22.128] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:48:56.683] [check_df.py 23] [INFO]: ---------------------数据样例：                                   materialcode  ... oldmaterialcode
+materialid                                      ...                
+faa955d46c3e11efa499fa163efe7f4a      10100154  ...             NaN
+fab9cc366c3e11efa499fa163efe7f4a      10100246  ...             NaN
+faa958626c3e11efa499fa163efe7f4a      10100155  ...             NaN
+fab9cdea6c3e11efa499fa163efe7f4a      10100247  ...             NaN
+faa96ca06c3e11efa499fa163efe7f4a      10100156  ...             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:48:56.683] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:48:56.692] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:54:22.095] [check_df.py 23] [INFO]: ---------------------数据样例：              materialname    specification  ... oldmaterialname  oldmaterialcode
+materialcode                                ...                                 
+10100154           热轧带肋钢筋  12米定尺HRB400EФ12  ...             NaN              NaN
+10100246           热轧带肋钢筋  12米定尺HRB400EФ12  ...             NaN              NaN
+10100155           热轧带肋钢筋  12米定尺HRB400EФ14  ...             NaN              NaN
+10100247           热轧带肋钢筋  12米定尺HRB400EФ14  ...             NaN              NaN
+10100156           热轧带肋钢筋  12米定尺HRB400EФ16  ...             NaN              NaN
+
+[5 rows x 56 columns] ---------------------
+[09:54:22.096] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:54:22.099] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:55:16.709] [check_df.py 23] [INFO]: ---------------------数据样例：              materialname    specification  ... oldmaterialname  oldmaterialcode
+materialcode                                ...                                 
+10100154           热轧带肋钢筋  12米定尺HRB400EФ12  ...             NaN              NaN
+10100246           热轧带肋钢筋  12米定尺HRB400EФ12  ...             NaN              NaN
+10100155           热轧带肋钢筋  12米定尺HRB400EФ14  ...             NaN              NaN
+10100247           热轧带肋钢筋  12米定尺HRB400EФ14  ...             NaN              NaN
+10100156           热轧带肋钢筋  12米定尺HRB400EФ16  ...             NaN              NaN
+
+[5 rows x 56 columns] ---------------------
+[09:55:16.709] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:55:16.711] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:56:02.751] [check_df.py 23] [INFO]: ---------------------数据样例：    materialcode materialname  ... oldmaterialname oldmaterialcode
+0      10100154       热轧带肋钢筋  ...             NaN             NaN
+1      10100246       热轧带肋钢筋  ...             NaN             NaN
+2      10100155       热轧带肋钢筋  ...             NaN             NaN
+3      10100247       热轧带肋钢筋  ...             NaN             NaN
+4      10100156       热轧带肋钢筋  ...             NaN             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:56:02.753] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:56:02.755] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[09:57:14.701] [check_df.py 23] [INFO]: ---------------------数据样例：    materialcode materialname  ... oldmaterialname oldmaterialcode
+0      10100154       热轧带肋钢筋  ...             NaN             NaN
+1      10100246       热轧带肋钢筋  ...             NaN             NaN
+2      10100155       热轧带肋钢筋  ...             NaN             NaN
+3      10100247       热轧带肋钢筋  ...             NaN             NaN
+4      10100156       热轧带肋钢筋  ...             NaN             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:57:14.702] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:57:21.596] [check_df.py 23] [INFO]: ---------------------数据样例：    materialcode materialname  ... oldmaterialname oldmaterialcode
+0      10100154       热轧带肋钢筋  ...             NaN             NaN
+1      10100246       热轧带肋钢筋  ...             NaN             NaN
+2      10100155       热轧带肋钢筋  ...             NaN             NaN
+3      10100247       热轧带肋钢筋  ...             NaN             NaN
+4      10100156       热轧带肋钢筋  ...             NaN             NaN
+
+[5 rows x 57 columns] ---------------------
+[09:57:21.597] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[09:57:21.602] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：2 ---------------------
+[10:13:50.254] [check_df.py 23] [INFO]: ---------------------数据样例：    materialcode materialname  ... oldmaterialname oldmaterialcode
+0      10100154       热轧带肋钢筋  ...             NaN             NaN
+1      10100246       热轧带肋钢筋  ...             NaN             NaN
+2      10100155       热轧带肋钢筋  ...             NaN             NaN
+3      10100247       热轧带肋钢筋  ...             NaN             NaN
+4      10100156       热轧带肋钢筋  ...             NaN             NaN
+
+[5 rows x 57 columns] ---------------------
+[10:13:50.255] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[10:13:50.256] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：109 ---------------------
+[10:14:54.180] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:15:23.955] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('brand', '长度校验', True, '14'), ('unitentityyid', '枚举值校验', False, 'a,b,c')]}
+[10:15:23.956] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:15:23.957] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[10:15:23.957] [check_df.py 133] [INFO]: ---------------------未通过手机号码校验数据行数：111 ---------------------
+[10:15:23.958] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[10:15:38.849] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': [('brand', '长度校验', True, '14'), ('unitentityyid', '枚举值校验', False, 'a,b,c')]}
+[10:15:38.849] [check_df.py 45] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[10:15:38.850] [check_df.py 63] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:15:38.851] [check_df.py 42] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[10:15:38.852] [check_df.py 133] [INFO]: ---------------------未通过手机号码校验数据行数：111 ---------------------
+[10:15:38.852] [check_df.py 102] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[10:21:31.175] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:21:54.801] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialname', '身份证校验', False)], 'advanced': [('number', '长度校验', True, '11'), ('rentunit', '枚举值校验', True, 'a,b,c')]}
+[10:21:54.802] [check_df.py 64] [INFO]: ---------------------列 'materialname' 没有通过身份证校验 ---------------------
+[10:21:54.802] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:21:54.802] [check_df.py 42] [INFO]: ---------------------列 'number' 没有通过空值校验 ---------------------
+[10:21:54.803] [check_df.py 43] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[10:21:54.803] [check_df.py 138] [INFO]: ---------------------列 'number' 没有通过长度校验 ---------------------
+[10:21:54.803] [check_df.py 139] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[10:21:54.804] [check_df.py 42] [INFO]: ---------------------列 'rentunit' 没有通过空值校验 ---------------------
+[10:21:54.804] [check_df.py 43] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[10:21:54.805] [check_df.py 105] [INFO]: ---------------------列 'rentunit' 没有通过枚举值校验 ---------------------
+[10:21:54.805] [check_df.py 106] [INFO]: ---------------------未通过枚举值校验数据行数：111 ---------------------
+[10:22:10.385] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialname', '身份证校验', False)], 'advanced': [('number', '长度校验', True, '11')]}
+[10:22:10.386] [check_df.py 64] [INFO]: ---------------------列 'materialname' 没有通过身份证校验 ---------------------
+[10:22:10.386] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:22:10.387] [check_df.py 42] [INFO]: ---------------------列 'number' 没有通过空值校验 ---------------------
+[10:22:10.387] [check_df.py 43] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[10:22:10.388] [check_df.py 138] [INFO]: ---------------------列 'number' 没有通过长度校验 ---------------------
+[10:22:10.388] [check_df.py 139] [INFO]: ---------------------未通过长度校验数据行数：111 ---------------------
+[10:22:13.226] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialname', '身份证校验', False)], 'advanced': [('number', '长度校验', True, '')]}
+[10:22:13.227] [check_df.py 64] [INFO]: ---------------------列 'materialname' 没有通过身份证校验 ---------------------
+[10:22:13.227] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:22:13.228] [check_df.py 42] [INFO]: ---------------------列 'number' 没有通过空值校验 ---------------------
+[10:22:13.228] [check_df.py 43] [INFO]: ---------------------未通过空值校验数据行数：111 ---------------------
+[10:22:13.228] [process_parmas.py 29] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[10:33:50.116] [handlers_interface.py 143] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[10:33:54.336] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:45:57.636] [handlers_interface.py 144] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[10:46:01.497] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:47:28.585] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:50:07.120] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:50:13.443] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('materialcode', '长度校验', False, ''), ('materialcode', '枚举值校验', False, '')]}
+[10:50:13.445] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[10:50:13.445] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:50:13.445] [process_parmas.py 29] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[10:50:59.838] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:51:05.749] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('materialcode', '长度校验', False, ''), ('materialcode', '长度校验', False, '')]}
+[10:51:05.750] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[10:51:05.750] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:51:05.750] [process_parmas.py 29] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[10:51:45.339] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:51:48.095] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('materialcode', '长度校验', False, '')]}
+[10:51:48.097] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[10:51:48.097] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:51:48.097] [process_parmas.py 29] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[10:54:26.819] [handlers_interface.py 147] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[10:54:32.139] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[10:54:34.292] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('materialcode', '长度校验', False, '')]}
+[10:54:34.294] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[10:54:34.294] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[10:54:34.294] [process_parmas.py 29] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[11:29:27.667] [handlers_interface.py 147] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[11:29:46.247] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:29:48.944] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:29:48.945] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:29:48.945] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:29:49.484] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:29:49.486] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:29:49.486] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:29:49.657] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:29:49.658] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:29:49.658] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:29:49.829] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:29:49.830] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:29:49.830] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:05.528] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:05.530] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:05.530] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:05.699] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:05.700] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:05.700] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:05.857] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:05.858] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:05.858] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:06.015] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:06.016] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:06.016] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:06.179] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:06.180] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:06.180] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:06.337] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:06.338] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:06.338] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:06.502] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:06.503] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:06.503] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:30:06.644] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[11:30:06.645] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[11:30:06.645] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[11:34:00.058] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:37:08.645] [handlers_interface.py 154] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[11:37:12.590] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:37:34.093] [handlers_interface.py 152] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[11:37:34.686] [handlers_interface.py 185] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[11:37:35.195] [handlers_interface.py 185] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[11:37:37.303] [handlers_interface.py 185] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[11:38:14.653] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:40:48.460] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 96, in <module>
+    app = QApplication(sys.argv)
+          ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[11:47:36.975] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 389, in _on_stop_clicked
+    self.ctx.stop_running()
+    ^^^^^^^^
+AttributeError: 'TableCard' object has no attribute 'ctx'
+[11:48:53.213] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 97, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 35, in __init__
+    self.handlersInterface = HandlersInterface()
+                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 402, in __init__
+    self.tableCard = TableCard(self)
+                     ^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 90, in __init__
+    self.logTextEdit.setWordWrapMode(True)
+TypeError: setWordWrapMode(self, policy: QTextOption.WrapMode): argument 1 has unexpected type 'bool'
+[11:49:50.573] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[11:50:08.727] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:38:39.176] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:39:33.408] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[13:41:17.397] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 351, in _on_start_clicked
+    self.logTextEdit.append(datetime.timedeltas(0).__str__() + "开始校验数据~")
+                            ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'timedeltas'
+[13:47:43.147] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 354, in _on_start_clicked
+    log("开始校验数据~")
+TypeError: 'Logger' object is not callable
+[13:54:00.453] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 97, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\view\excel_master.py", line 35, in __init__
+    self.handlersInterface = HandlersInterface()
+                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 407, in __init__
+    self.handlersCard = HandlersCard(self)
+                        ^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 26, in __init__
+    self.log = log_message()
+               ^^^^^^^^^^^^^
+TypeError: log_message() missing 2 required positional arguments: 'message' and 'text_edit'
+[14:07:28.563] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:07:32.239] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': []}
+[14:07:32.240] [check_df.py 46] [INFO]: ---------------------列 'materialcode' 通过空值校验，无空值 ---------------------
+[14:07:32.241] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[14:07:32.241] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:08:15.907] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:08:20.795] [process_parmas.py 9] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': []}
+[14:08:20.798] [check_df.py 64] [INFO]: ---------------------列 'materialcode' 没有通过身份证校验 ---------------------
+[14:08:20.798] [check_df.py 65] [INFO]: ---------------------未通过身份证校验数据行数：111 ---------------------
+[14:49:21.768] [handlers_interface.py 153] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[14:49:25.412] [handlers_interface.py 153] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[14:49:31.550] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:49:34.263] [excel_master.py 84] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\dataScan\dataScan\src\gui\interface\handlers_interface.py", line 374, in _on_start_clicked
+    process_params(values, data_copy, self.log)
+TypeError: process_params() takes 2 positional arguments but 3 were given
+[14:54:54.232] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[14:55:14.419] [process_parmas.py 10] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('materialcode', '长度校验', True, '212'), ('brand', '枚举值校验', False, 'a,b,c')]}
+[15:12:38.156] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:14:34.023] [process_parmas.py 12] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('createcompany', '长度校验', False, '50'), ('orgnizationid', '长度校验', False, '10'), ('specification', '枚举值校验', True, '12米定尺HRB400EФ12,b,c')]}
+[15:14:34.029] [process_parmas.py 42] [ERROR]: 参数解析出现问题:No objects to concatenate
+[15:18:10.542] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:18:33.310] [process_parmas.py 10] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': [('orgname', '长度校验', False, '20'), ('specification', '枚举值校验', True, 'a,b,c')]}
+[15:18:33.316] [process_parmas.py 35] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:18:45.246] [process_parmas.py 10] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': [('orgname', '长度校验', False, '20'), ('specification', '长度校验', True, 'a,b,c')]}
+[15:18:45.251] [process_parmas.py 40] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: 'a,b,c'
+[15:18:51.595] [process_parmas.py 10] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': [('orgname', '长度校验', False, '20'), ('specification', '枚举值校验', True, 'a,b,c')]}
+[15:18:51.601] [process_parmas.py 35] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:19:52.505] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:20:13.223] [process_parmas.py 12] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('number', '长度校验', False, '20'), ('brand', '枚举值校验', True, 'a,b,c')]}
+[15:20:13.256] [process_parmas.py 41] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:21:35.662] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:21:44.186] [process_parmas.py 12] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '枚举值校验', True, 'a,b,c')]}
+[15:21:44.230] [process_parmas.py 41] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:22:49.801] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:22:57.302] [process_parmas.py 12] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '枚举值校验', True, 'a,b,c')]}
+[15:22:57.348] [process_parmas.py 42] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:23:26.058] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:23:48.160] [process_parmas.py 12] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '枚举值校验', True, 'a,b,c')]}
+[15:23:48.205] [process_parmas.py 42] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:26:19.746] [check_df.py 23] [INFO]: ---------------------数据样例：    materialcode materialname  ... oldmaterialname oldmaterialcode
+0      10100154       热轧带肋钢筋  ...             NaN             NaN
+1      10100246       热轧带肋钢筋  ...             NaN             NaN
+2      10100155       热轧带肋钢筋  ...             NaN             NaN
+3      10100247       热轧带肋钢筋  ...             NaN             NaN
+4      10100156       热轧带肋钢筋  ...             NaN             NaN
+
+[5 rows x 57 columns] ---------------------
+[15:26:19.746] [check_df.py 25] [INFO]: --------------------- 数据列名：['materialcode', 'materialname', 'specification', 'unit', 'mstate', 'orgnizationid', 'oamaterialid', 'materialclassid', 'ispublic', 'unitrule', 'createcompany', 'rentunit', 'number', 'remak', 'brand', 'orgname', 'projectname', 'plandate', 'admname', 'price', 'extendxml', 'companyid', 'jcflag', 'createid', 'createname', 'createdate', 'remark', 'materialclasscode', 'mdmcode', 'originalid', 'shortname', 'feature', 'sourcesystem', 'unitentityyid', 'materialclass', 'nameentityyid', 'nameentityname', 'scalefactor', 'custom_data', 'deleted', 'groupId', 'orderNo', 'priceType', 'jobContent', 'funitrules', 'costForm', 'mainMaterials', 'pushstatus', 'threepartid', 'threepartcode', 'materialclassnameone', 'materialclassnametwo', 'approvestatus', 'nonespe', 'thickness', 'oldmaterialname', 'oldmaterialcode']  ---------------------
+[15:30:59.477] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:31:28.930] [process_parmas.py 12] [INFO]: 输入的全部校验内容为   {'standard': [('unitrule', '身份证校验', False), ('number', '手机校验', False), ('orgname', '数值校验', False)], 'advanced': [('specification', '长度校验', True, '20'), ('materialname', '枚举值校验', True, 'a,b,c')]}
+[15:31:28.966] [process_parmas.py 42] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:33:49.338] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:34:00.360] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': [('materialcode', '长度校验', False, ''), ('materialcode', '长度校验', True, 'a,b,c')]}
+[15:34:00.362] [process_parmas.py 50] [ERROR]: 参数解析出现问题:invalid literal for int() with base 10: ''
+[15:34:22.310] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True), ('materialname', '手机校验', False), ('specification', '数值校验', True)], 'advanced': [('projectname', '长度校验', False, '20'), ('materialcode', '枚举值校验', True, 'a,b,c')]}
+[15:34:22.329] [process_parmas.py 50] [ERROR]: 参数解析出现问题:Cannot save file into a non-existent directory: '2024YYY-10m-10\15'
+[15:36:04.929] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:36:27.586] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False), ('orgname', '手机校验', False), ('brand', '数值校验', False)], 'advanced': [('price', '长度校验', False, '20'), ('materialcode', '枚举值校验', True, 'a,b,c')]}
+[15:36:27.905] [process_parmas.py 45] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:44:30.346] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:44:58.988] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False), ('specification', '手机校验', True), ('orgnizationid', '数值校验', True)], 'advanced': [('unit', '长度校验', False, '20'), ('materialcode', '枚举值校验', True, 'a,b,c')]}
+[15:44:59.007] [process_parmas.py 58] [ERROR]: 参数解析出现问题:NDFrame.to_excel() got an unexpected keyword argument 'encoding'
+[15:49:11.214] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:49:29.598] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[15:49:29.600] [process_parmas.py 59] [ERROR]: 参数解析出现问题:'NoneType' object has no attribute 'empty'
+[15:50:14.123] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:50:16.099] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[15:50:16.101] [process_parmas.py 59] [ERROR]: 参数解析出现问题:object of type 'NoneType' has no len()
+[15:51:16.927] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:51:18.470] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[15:51:18.570] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:55:25.170] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:55:27.216] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False)], 'advanced': []}
+[15:55:27.314] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:55:58.094] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', False), ('materialcode', '手机校验', True), ('materialcode', '数值校验', True)], 'advanced': []}
+[15:55:58.262] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:58:04.152] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:58:06.367] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': []}
+[15:58:06.472] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[15:59:07.280] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[15:59:09.321] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': []}
+[15:59:09.453] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:01:42.918] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:01:45.737] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': []}
+[16:01:45.843] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:04:36.447] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True), ('brand', '手机校验', True)], 'advanced': []}
+[16:04:36.687] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:06:19.450] [handlers_interface.py 51] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:06:21.261] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '身份证校验', True)], 'advanced': []}
+[16:06:21.366] [process_parmas.py 54] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:10:52.102] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:13:49.651] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:13:52.128] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '非空校验')], 'advanced': []}
+[16:13:52.140] [process_parmas.py 49] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:15:38.358] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:15:49.541] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '非空校验'), ('brand', '身份证校验'), ('plandate', '手机校验'), ('extendxml', '数值校验')], 'advanced': []}
+[16:15:49.793] [process_parmas.py 49] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:18:09.059] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '长度校验', '10'), ('materialcode', '枚举值校验', 'a,b,c')]}
+[16:18:09.064] [process_parmas.py 54] [ERROR]: 参数解析出现问题:"['未通过枚举校验'] not found in axis"
+[16:19:07.017] [handlers_interface.py 186] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[16:19:07.332] [handlers_interface.py 186] [ERROR]: 数据无法加载或出现错误,请重新选择其他文件或检查并修改文件后再次加载
+[16:19:11.766] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:19:18.500] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [], 'advanced': [('materialcode', '长度校验', '20'), ('materialcode', '枚举值校验', 'a,b,c')]}
+[16:19:18.504] [process_parmas.py 53] [ERROR]: 参数解析出现问题:No objects to concatenate
+[16:24:48.042] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:24:50.085] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '非空校验')], 'advanced': []}
+[16:24:50.087] [process_parmas.py 53] [ERROR]: 参数解析出现问题:('materialcode', '非空校验')
+[16:25:03.414] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:25:05.340] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '非空校验')], 'advanced': []}
+[16:25:05.343] [process_parmas.py 53] [ERROR]: 参数解析出现问题:"['非空校验'] not in index"
+[16:25:39.086] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:25:43.778] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:25:43.778] [process_parmas.py 53] [ERROR]: 参数解析出现问题:No objects to concatenate
+[16:26:36.148] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:26:37.434] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:26:37.446] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:27:40.381] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:27:41.965] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:27:42.015] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:28:06.286] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:28:07.988] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:28:08.040] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:28:42.968] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:28:44.048] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:28:44.099] [process_parmas.py 49] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:29:57.097] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:30:03.009] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('unitrule', '身份证校验')], 'advanced': []}
+[16:30:03.114] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:43:27.364] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:43:32.597] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:43:32.695] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:46:40.092] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:46:42.950] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验')], 'advanced': []}
+[16:46:43.054] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:47:17.958] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:47:24.268] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[16:47:24.449] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:47:55.295] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:48:01.393] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[16:48:01.571] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:48:57.058] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:49:00.207] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialcode', '身份证校验')], 'advanced': []}
+[16:49:00.378] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:49:04.310] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '身份证校验')], 'advanced': []}
+[16:49:04.473] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:49:08.135] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[16:49:08.319] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:50:12.138] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:50:16.754] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[16:50:16.794] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:51:42.476] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:51:47.720] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[16:51:47.818] [process_parmas.py 48] [INFO]: 所有校验完成，返回最终的 DataFrame
+[16:52:42.261] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[16:52:46.806] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[16:52:46.810] [process_parmas.py 53] [ERROR]: 参数解析出现问题:merge() got an unexpected keyword argument 'axis'
+[17:01:40.036] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[17:01:48.385] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': []}
+[17:01:48.487] [process_parmas.py 67] [INFO]: 所有校验完成，返回最终的 DataFrame
+[17:09:06.312] [handlers_interface.py 50] [INFO]: 选择路径 C:/Users/KODI/Desktop/新版物料.xlsx
+[17:09:21.966] [process_parmas.py 14] [INFO]: 输入的全部校验内容为   {'standard': [('materialcode', '空值校验'), ('materialname', '手机校验')], 'advanced': [('materialcode', '长度校验', '21'), ('admname', '枚举值校验', 'a,b,c')]}
+[17:09:22.054] [process_parmas.py 62] [INFO]: 所有校验完成，返回最终的 DataFrame
