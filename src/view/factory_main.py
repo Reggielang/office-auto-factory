@@ -68,6 +68,7 @@ class Window(MSFluentWindow):
         self.move(w // 2 - self.width() // 2, h // 2 - self.height() // 2)
 
 
+
 # 定义一个全局异常捕获器
 def excepthook(exc_type, exc_value, exc_traceback):
     # 记录异常信息
