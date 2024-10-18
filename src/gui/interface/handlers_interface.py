@@ -1,3 +1,4 @@
+import base64
 import os
 
 import pandas as pd
@@ -12,6 +13,12 @@ from src.checks.handlers.process_parmas import process_params
 from src.checks.utils.i18_utils import gt
 from src.checks.utils.log_utils import log, log_message
 from src.checks.utils.messagebox_utils import MessageBoxUtils
+from assets.images.excel_png import img as excel_png
+from src.checks.utils.pic2_utils import save_base64_image, images_dir
+
+# tmp = open('/images/excel.png', 'wb')  #创建临时的文件
+# tmp.write(base64.b64decode(excel_png))  ##把这个one图片解码出来，写入文件中去。
+# tmp.close()
 
 file_path_global = None
 
@@ -34,7 +41,7 @@ class HandlersCard(SimpleCardWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.table_card = None  # 存储 TableCard 的实例
-        self.iconLabel = ImageLabel("../../assets/images/excel.png", self)
+        self.iconLabel = ImageLabel(save_base64_image(excel_png, images_dir, "excel.png"),self)
         self.iconLabel.setBorderRadius(20, 20, 20, 20)
         self.iconLabel.scaledToWidth(100)
         self.setObjectName("HandlersCard")

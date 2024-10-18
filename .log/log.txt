@@ -291,3 +291,66 @@ Traceback (most recent call last):
   File "D:\Bot\dataScan\dataScan\src\gui\interface\likes_interface.py", line 50, in __init__
     self.viewLayout.addWidget(self.vBoxLayout)
 TypeError: addWidget(self, a0: QWidget, stretch: int = 0, alignment: Qt.AlignmentFlag = Qt.Alignment()): argument 1 has unexpected type 'QVBoxLayout'
+[16:21:50.287] [factory_main.py 75] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 88, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 36, in __init__
+    self.handlersInterface = HandlersInterface()
+                             ^^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\gui\interface\handlers_interface.py", line 448, in __init__
+    self.handlersCard = HandlersCard(self)
+                        ^^^^^^^^^^^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\gui\interface\handlers_interface.py", line 45, in __init__
+    self.iconLabel = ImageLabel(excel_png.png, self)
+                                ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'png'
+[17:00:49.005] [factory_main.py 75] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 88, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 35, in __init__
+    self.homeInterface = HomeInterface()
+                         ^^^^^^^^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\gui\interface\home_interface.py", line 174, in __init__
+    self.appCard = AppInfoCard(self)
+                   ^^^^^^^^^^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\gui\interface\home_interface.py", line 49, in __init__
+    self.iconLabel = ImageLabel(save_base64_image(main_png, images_dir, "main_png"), self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\overload.py", line 38, in _method
+    return method.__get__(obj, cls)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ImageLabel.__init__() takes from 1 to 2 positional arguments but 3 were given
+[17:01:19.730] [factory_main.py 75] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 88, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\gui\interface\likes_interface.py", line 33, in __init__
+    self.likeLabel = ImageLabel(save_base64_image(likes_png, images_dir, "likes.png"), self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\overload.py", line 38, in _method
+    return method.__get__(obj, cls)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ImageLabel.__init__() takes from 1 to 2 positional arguments but 3 were given
+[17:03:31.813] [factory_main.py 75] [ERROR]: 系统发生严重错误，请联系开发者
+Traceback (most recent call last):
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 88, in <module>
+    w = Window()
+        ^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\view\factory_main.py", line 37, in __init__
+    self.handlersInterface2 = LikeInterface()
+                              ^^^^^^^^^^^^^^^
+  File "D:\Bot\office-auto-factory\src\gui\interface\likes_interface.py", line 33, in __init__
+    self.likeLabel = ImageLabel(save_base64_image(likes_png, images_dir, "likes.png"), self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_env\Lib\site-packages\qfluentwidgets\common\overload.py", line 38, in _method
+    return method.__get__(obj, cls)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ImageLabel.__init__() takes from 1 to 2 positional arguments but 3 were given

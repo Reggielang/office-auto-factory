@@ -8,7 +8,9 @@ from qfluentwidgets import FluentIcon as FIF, NavigationItemPosition
 from qfluentwidgets import (MSFluentWindow,
                             SubtitleLabel, setFont)
 
+from assets.images.logo_png import img as logo_png
 from src.checks.utils.log_utils import log
+from src.checks.utils.pic2_utils import save_base64_image, images_dir
 from src.gui.interface.handlers_interface import HandlersInterface
 from src.gui.interface.home_interface import HomeInterface
 from src.gui.interface.likes_interface import LikeInterface
@@ -60,7 +62,7 @@ class Window(MSFluentWindow):
 
     def initWindow(self):
         self.resize(1000, 800)  # 调整窗口大小
-        self.setWindowIcon(QIcon("../../assets/images/logo.png"))
+        self.setWindowIcon(QIcon(save_base64_image(logo_png, images_dir, "logo.png")))
         self.setWindowTitle('办公自动化工厂')
 
         desktop = QApplication.screens()[0].availableGeometry()

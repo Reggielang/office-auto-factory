@@ -10,6 +10,8 @@ from qfluentwidgets import (BodyLabel, CaptionLabel, ImageLabel, SimpleCardWidge
                             VerticalSeparator, Flyout)
 
 from assets.comments import description
+from assets.images.main_png import img as main_png
+from src.checks.utils.pic2_utils import save_base64_image, images_dir
 
 
 def isWin11():
@@ -44,7 +46,7 @@ class AppInfoCard(SimpleCardWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.iconLabel = ImageLabel("../../assets/images/main.png", self)
+        self.iconLabel = ImageLabel(save_base64_image(main_png, images_dir, "main_png"), self)
         self.iconLabel.setBorderRadius(20, 20, 20, 20)
         self.iconLabel.scaledToWidth(120)
         self.setObjectName("AppInfoCard")
@@ -74,7 +76,7 @@ class AppInfoCard(SimpleCardWidget):
     def initLayout(self):
         self.hBoxLayout.setSpacing(30)
         self.hBoxLayout.setContentsMargins(34, 24, 24, 24)
-        self.hBoxLayout.addWidget(self.iconLabel)
+        # self.hBoxLayout.addWidget(self.iconLabel)
         self.hBoxLayout.addLayout(self.vBoxLayout)
 
         self.vBoxLayout.setContentsMargins(0, 0, 0, 0)
