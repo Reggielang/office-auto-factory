@@ -22,6 +22,7 @@ source venv/Scripts/activate  # Windows
 
 ### 3. 安装依赖
 
+## 请注意，最好是在命令行cd到该项目路径下进行操作。
 项目依赖项列在 requirements.txt 文件中。使用 pip 安装所需的包：
 
 ```bash
