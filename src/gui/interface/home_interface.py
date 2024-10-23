@@ -7,9 +7,11 @@ from PyQt6.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout
 from qfluentwidgets import (BodyLabel, CaptionLabel, ImageLabel, SimpleCardWidget,
                             HeaderCardWidget, InfoBarIcon, HyperlinkLabel,
                             PrimaryPushButton, TitleLabel, setFont, ScrollArea,
-                            VerticalSeparator, Flyout)
+                            VerticalSeparator, Flyout, TextEdit)
 
 from assets.comments import description
+from assets.images.main_png import img as main_png
+from src.checks.utils.pic2_utils import save_base64_image, images_dir
 
 
 def isWin11():
@@ -21,6 +23,18 @@ if isWin11():
 else:
     pass
 
+class DescriptionCard(HeaderCardWidget):
+    """ Description card """
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setObjectName("HomeDescriptionCard")
+        self.funcMarkDown = TextEdit(self)
+        self.funcMarkDown.setMarkdown(description.HomeAppMarkDown)
+        self.funcMarkDown.setFixedHeight(200)
+        self.viewLayout.setSpacing(2)
+        self.viewLayout.setContentsMargins(10, 10, 5, 5)
+        self.viewLayout.addWidget(self.funcMarkDown)
 
 class StatisticsWidget(QWidget):
     """ Statistics widget """
@@ -44,7 +58,7 @@ class AppInfoCard(SimpleCardWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.iconLabel = ImageLabel("../../assets/images/main.png", self)
+        self.iconLabel = ImageLabel(save_base64_image(main_png, images_dir, "main_png"), self)
         self.iconLabel.setBorderRadius(20, 20, 20, 20)
         self.iconLabel.scaledToWidth(120)
         self.setObjectName("AppInfoCard")
@@ -171,6 +185,7 @@ class HomeInterface(ScrollArea):
         # 初始化卡片
         self.appCard = AppInfoCard(self)
         self.functionCard = FunctionCard(self)
+        self.descriptionCard = DescriptionCard(self)
 
         self.setWidget(self.view)
         self.setWidgetResizable(True)
@@ -178,9 +193,10 @@ class HomeInterface(ScrollArea):
 
         # 加载卡片
         self.vBoxLayout.setSpacing(2)
-        self.vBoxLayout.setContentsMargins(8, 0, 10, 10)
+        self.vBoxLayout.setContentsMargins(20, 20, 10, 10)
         self.vBoxLayout.addWidget(self.appCard, 0, Qt.AlignmentFlag.AlignTop)
         self.vBoxLayout.addWidget(self.functionCard, 0, Qt.AlignmentFlag.AlignTop)
+        self.vBoxLayout.addWidget(self.descriptionCard, 0, Qt.AlignmentFlag.AlignTop)
         # 设置样式表
 
         self.enableTransparentBackground()
