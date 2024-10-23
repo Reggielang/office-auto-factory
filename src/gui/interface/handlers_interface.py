@@ -33,7 +33,7 @@ class DescriptionCard(HeaderCardWidget):
         self.funcMarkDown.setMarkdown(description.funcMarkDown)
         self.funcMarkDown.setFixedHeight(200)
         self.viewLayout.setSpacing(2)
-        self.viewLayout.setContentsMargins(0, 0, 5, 5)
+        self.viewLayout.setContentsMargins(10, 10, 5, 5)
         self.viewLayout.addWidget(self.funcMarkDown)
 
 
@@ -457,7 +457,7 @@ class HandlersInterface(ScrollArea):
 
         # 加载卡片
         self.vBoxLayout.setSpacing(5)
-        self.vBoxLayout.setContentsMargins(0, 0, 10, 10)
+        self.vBoxLayout.setContentsMargins(10, 10, 10, 10)
         self.vBoxLayout.addWidget(self.descriptionCard, 0, Qt.AlignmentFlag.AlignTop)
         self.vBoxLayout.addWidget(self.handlersCard, 0, Qt.AlignmentFlag.AlignTop)
         self.vBoxLayout.addWidget(self.tableCard, 1, Qt.AlignmentFlag.AlignTop)
