@@ -41,6 +41,6 @@ python ../factory_main.py (需要找到主文件的路径,，如果已经在那�
 
 这里有一个二维码，你可以扫描它，来联系我，我直接发exe可执行文件给您：
 
-![扫描我](assets/images/likes.png)
+![扫描我](assets/images/connect.png)
 
 
